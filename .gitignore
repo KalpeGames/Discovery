@@ -1,0 +1,23 @@
+# Build output
+.gradle/
+build/
+versions/*/build/
+out/
+
+# Local game runs, local-only files
+run/
+libs/
+concept/
+backup-jar-*/
+icon-old-*.png
+*.bak
+*.bak-*
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+bin/

@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "serverlist",
+	"version": "${version}",
+	"name": "Discovery",
+	"description": "A Discovery page on the title screen: Minecraft servers ranked by serverlist.cc's live tracker, with one-click join.",
+	"authors": [
+		"Kalpe Games"
+	],
+	"contact": {
+		"homepage": "https://serverlist.cc",
+		"sources": "https://github.com/KalpeGames/Discovery",
+		"issues": "https://github.com/KalpeGames/Discovery/issues"
+	},
+	"license": "LicenseRef-Discovery-1.0",
+	"icon": "assets/serverlist/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"cc.serverlist.featured.FeaturedClient"
+		],
+		"modmenu": [
+			"cc.serverlist.featured.compat.ModMenuIntegration"
+		]
+	},
+	"mixins": [
+		{
+			"config": "serverlist.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": "${loader}",
+		"minecraft": "${minecraft}",
+		"java": ">=${java}"
+	}
+}

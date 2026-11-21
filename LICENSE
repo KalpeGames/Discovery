@@ -1,0 +1,112 @@
+Discovery License
+Version 1.0, November 2026
+
+Copyright (c) 2026 Kalpe Games. All rights reserved, except as set out below.
+
+This is a source-available license. It is not an open-source license: the source is published so
+that anyone can read it and check what Discovery does, not so that it can be reused or rebuilt
+into other products.
+
+
+DEFINITIONS
+
+"Discovery" means the source code, build files, assets and compiled mod files in this repository.
+
+"Official build" means a compiled Discovery mod file published by Kalpe Games (on its Modrinth
+project page or in this repository's releases), exactly as published.
+
+"The Service" means serverlist.cc and its APIs, including api.serverlist.cc, operated by
+Kalpe Games.
+
+"You" means any person or organisation exercising rights under this license.
+
+
+1. READING AND BUILDING THE SOURCE
+
+You may read and study the source code, and build it, for your own personal use: to check what
+Discovery does, to debug it, or to prepare a contribution to this repository (section 5).
+
+
+2. REDISTRIBUTING OFFICIAL BUILDS
+
+You may include official builds in modpacks, launchers, game clients and mod lists, free or paid,
+as long as:
+
+  a. the mod file is unmodified: not recompiled, patched, repackaged, obfuscated, shaded, nested
+     inside or merged into another file;
+  b. you do not ship settings or files that hide, skip or pre-dismiss Discovery's first-run
+     notice about play stats, turn play stats on for anyone who has turned them off, or
+     otherwise keep from players what Discovery does. You may ship Discovery's other settings
+     (for example its layout options);
+  c. Discovery, Kalpe Games and this license stay credited wherever your product lists the mods
+     it includes;
+  d. you do not sell Discovery on its own, or suggest that Kalpe Games endorses, sponsors or
+     supports your product without written permission.
+
+Players may change any of Discovery's own in-game settings.
+
+
+3. NO MODIFIED VERSIONS OR DERIVATIVE WORKS
+
+You may not distribute, publish, host or otherwise make available any modified version of
+Discovery, or any work based on it. In particular, you may not:
+
+  a. change its appearance, layout, styling, text or branding;
+  b. make it connect to any service other than the Service, or change, redirect, proxy, cache,
+     replay or add to the requests it makes to the Service;
+  c. port it to another mod loader, game version or platform yourself;
+  d. use any part of its source code, assets or design in another mod, client, launcher or
+     program.
+
+Changes you make for your own private use are allowed as long as they are never distributed and
+the modified copy still talks only to the Service, unchanged.
+
+
+4. THE SERVICE
+
+Discovery is a client for the Service. Your use of the Service is governed by serverlist.cc's
+terms and its privacy policy (https://serverlist.cc/privacy). This license grants no rights to
+the Service or its APIs beyond the use that official builds make of them. Kalpe Games may change,
+rate-limit, suspend or withdraw the Service, or any client's access to it, at any time.
+
+
+5. CONTRIBUTIONS
+
+Issues and pull requests are welcome. By submitting a contribution you confirm that you have the
+right to do so, and you grant Kalpe Games a perpetual, worldwide, irrevocable, royalty-free
+license to use, modify, sublicense, relicense and distribute it, as part of Discovery or
+otherwise.
+
+
+6. NAMES, LOGOS AND TRADEMARKS
+
+This license grants no rights to the names "Discovery" (as the name of this mod), "serverlist.cc"
+or "Kalpe Games", or to their logos and icons, except to accurately name an unmodified official
+build that you redistribute under section 2.
+
+
+7. TERMINATION
+
+Your rights under this license end automatically if you break any of its terms. If you put the
+breach right within 30 days of becoming aware of it, your rights are restored, unless Kalpe Games
+has already told you in writing that they are terminated.
+
+
+8. THIRD-PARTY SOFTWARE
+
+Minecraft, Fabric and any other third-party software that Discovery works with or is built with
+are covered by their own terms. This license covers only Kalpe Games' own work.
+
+
+9. NO WARRANTY AND LIMITATION OF LIABILITY
+
+Discovery is provided "as is", without warranty of any kind, express or implied, including
+warranties of merchantability, fitness for a particular purpose and non-infringement. To the
+fullest extent permitted by law, Kalpe Games is not liable for any claim, damages or other
+liability arising from or in connection with Discovery or its use.
+
+
+10. EVERYTHING ELSE
+
+Anything this license does not expressly allow needs written permission from Kalpe Games. To ask,
+open an issue in this repository or get in touch through https://kalpe.games.

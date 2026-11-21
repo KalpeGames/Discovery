@@ -1,0 +1,21 @@
+{
+	"required": true,
+	"package": "cc.serverlist.featured.mixin",
+	"compatibilityLevel": "JAVA_${java}",
+	"client": [
+		"TitleScreenMixin",
+		"TitleScreenAccessor",
+		"JoinMultiplayerScreenMixin",
+		"ConnectScreenMixin",
+		"ClientPacketListenerMixin",
+		"ClientCommonPacketListenerImplMixin",
+		"ClientHandshakePacketListenerImplMixin",
+		"DisconnectedScreenMixin",
+		"MinecraftMixin",
+		"PauseScreenMixin",
+		"RealmsNotificationsScreenMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
