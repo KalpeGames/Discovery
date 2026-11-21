@@ -65,7 +65,7 @@ the modified copy still talks only to the Service, unchanged.
 4. THE SERVICE
 
 Discovery is a client for the Service. Your use of the Service is governed by serverlist.cc's
-terms and its privacy policy (https://serverlist.cc/privacy). This license grants no rights to
+terms of use (https://serverlist.cc/terms) and privacy policy (https://serverlist.cc/privacy). This license grants no rights to
 the Service or its APIs beyond the use that official builds make of them. Kalpe Games may change,
 rate-limit, suspend or withdraw the Service, or any client's access to it, at any time.
 
